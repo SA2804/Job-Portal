@@ -1,0 +1,35 @@
+/* login.css */
+
+body {
+    height: 100vh;
+    background: rgb(37, 37, 37);
+  }
+  
+  .form-signin {
+    max-width: 450px;
+    padding: 1rem;
+    border:2px solid grey   ;
+    background-color: rgb(172, 172, 235); /* Form background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 20px black; /* Light shadow */
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"],
+  .form-signin input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    color: #495057; /* Text color */
+  }
+  
+  .form-signin input[type="email"]:focus,
+  .form-signin input[type="password"]:focus {
+    background-color: #fff; /* White background on focus */
+    border-color: #80bdff; /* Blue border on focus */
+    color: #495057; /* Text color on focus */
+  }
+  

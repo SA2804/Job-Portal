@@ -1,0 +1,26 @@
+.flex-grow-1 {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.dashboard {
+  background-color: #78aee3;
+  width: fit-content;
+  height: auto; /* Allow height to grow with content */
+  min-height: 100vh; /* Ensure minimum height is the viewport height */
+}
+
+.dashboard .nav-link {
+  color: black; /* Link text color */
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: normal; /* Normal text weight */
+  padding: 10px; /* Padding around links */
+}
+
+.dashboard .nav-link:hover {
+  background-color: bisque; /* Hover background color */
+  text-decoration: underline;
+}

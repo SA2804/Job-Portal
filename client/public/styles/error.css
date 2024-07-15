@@ -1,0 +1,44 @@
+/* error.css */
+
+.error-container {
+    min-height: 100vh; /* Minimum viewport height */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .error-content {
+    max-width: 600px; /* Maximum width for content */
+    margin: auto; /* Center align content horizontally */
+    padding: 30px; /* Padding inside the container */
+    text-align: center; /* Center align text */
+  }
+  
+  .error-title {
+    font-size: 3rem; /* Large font size for title */
+    font-weight: bold; /* Bold font weight */
+    color: #dc3545; /* Red color for emphasis */
+  }
+  
+  .error-icon {
+    font-size: 4rem; /* Larger font size for icon */
+    color: #dc3545; /* Red color for icon */
+  }
+  
+  .error-message {
+    font-size: 1.5rem; /* Medium font size for message */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  .error-link {
+    display: inline-block; /* Display as block element */
+    padding: 10px 30px; /* Padding for button */
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 30px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .error-link:hover {
+    background-color: #23272b; /* Darker background on hover */
+  }
+  

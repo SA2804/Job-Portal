@@ -1,0 +1,51 @@
+/* Viewjob.css */
+
+.read-only-details {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .read-only-details > div {
+    margin-bottom: 15px;
+  }
+  
+  .read-only-details label {
+    font-weight: bold;
+  }
+  
+  .read-only-details input[type="text"],
+  .read-only-details textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .read-only-details input[type="text"]:focus,
+  .read-only-details textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Example color for focus state */
+  }
+  
+  .read-only-details ul {
+    padding-left: 20px;
+  }
+  
+  .read-only-details button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  

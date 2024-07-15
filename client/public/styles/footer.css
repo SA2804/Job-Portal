@@ -1,0 +1,12 @@
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    color: black; /* Dark grey text color */
+  }
+  
+  .footer p {
+    margin-bottom: 0; /* Remove bottom margin from paragraphs */
+  }
+  
+  .footer .container {
+    max-width: 960px; /* Set maximum width for the footer content */
+  }
